@@ -1,8 +1,6 @@
----
-:name: IUT Michel de Montaigne
-:key2: v2
-:address: 1, rue de Marnes
-:zipcode: '92410'
-:city: VILLE D AVRAY
-:country: FR
-:phone: TODO
+name: IUT Michel de Montaigne
+address: 1, rue de Marnes
+zipcode: '92410'
+city: VILLE D AVRAY
+country: FR
+phone: TODO
