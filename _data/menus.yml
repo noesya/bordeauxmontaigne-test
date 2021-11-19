@@ -1,0 +1,17 @@
+---
+main-menu:
+- title: Menu 1
+  target: 
+  children:
+  - title: Menu 1-1
+    target: https://www.google.fr
+    children: []
+  - title: Menu 1-2
+    target: "/partenaires-et-contacts"
+    children: []
+- title: Menu 2
+  target: 
+  children: []
+- title: Nos formations
+  target: 
+  children: []
