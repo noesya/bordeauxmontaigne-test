@@ -11,10 +11,6 @@
     target: 
     kind: blank
     children: []
-- title: Menu 2
-  target: 
-  kind: blank
-  children: []
 - title: Test page apprentissage
   target: "/apprentissage"
   kind: page
