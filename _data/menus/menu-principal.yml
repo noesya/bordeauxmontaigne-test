@@ -24,7 +24,7 @@
   kind: news_category
   children: []
 - title: Article spécifique
-  target: "/actualites/actu-test-pa/2021/10/01/actu-test-pa"
+  target: "/actualites/2021/10/01/actu-test-pa"
   kind: news_article
   children: []
 - title: Test URL externe
