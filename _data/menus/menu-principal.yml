@@ -36,14 +36,14 @@
   kind: program
   children: []
 - title: Test index des formations
-  target: 
+  target: programmes
   kind: programs
   children: []
 - title: Test index des actualités
-  target: 
+  target: actualites
   kind: news
   children: []
 - title: Test équipe
-  target: 
+  target: equipe
   kind: staff
   children: []
