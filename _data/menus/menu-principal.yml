@@ -24,7 +24,7 @@
   kind: news_category
   children: []
 - title: Article spécifique
-  target: 
+  target: actualites/actu-test-pa/2021/10/01/actu-test-pa
   kind: news_article
   children: []
 - title: Test URL externe
@@ -32,18 +32,18 @@
   kind: url
   children: []
 - title: Test Program
-  target: "/bachelor-universitaire-de-technologie-metiers-du-multimedia-et-de-l-internet"
+  target: "/programmes/bachelor-universitaire-de-technologie-metiers-du-multimedia-et-de-l-internet"
   kind: program
   children: []
 - title: Test index des formations
-  target: programmes
+  target: "/programmes"
   kind: programs
   children: []
 - title: Test index des actualités
-  target: actualites
+  target: "/actualites"
   kind: news
   children: []
 - title: Test équipe
-  target: equipe
+  target: "/equipe"
   kind: staff
   children: []
