@@ -6,9 +6,9 @@
 - title: Test
   target: "/programs/test/"
   kind: program
-  children: []
-- title: Test
-  target: "/programs/test/"
-  kind: program
-  children: []
+  children:
+  - title: Test
+    target: "/programs/test/"
+    kind: program
+    children: []
 
