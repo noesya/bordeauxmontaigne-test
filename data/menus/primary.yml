@@ -1,0 +1,14 @@
+---
+- title: Test 2
+  target: &quot;/programs/test/&quot;
+  kind: program
+  children: []
+- title: Test
+  target: &quot;/programs/test/&quot;
+  kind: program
+  children: []
+- title: Test
+  target: &quot;/programs/test/&quot;
+  kind: program
+  children: []
+
