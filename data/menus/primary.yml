@@ -1,6 +1,6 @@
 ---
-- title: URL
-  target: "/page-de-test/"
-  kind: page
+- title: Offre de formation
+  target: "/offre-de-formation/test/"
+  kind: news_category
   children: []
 
