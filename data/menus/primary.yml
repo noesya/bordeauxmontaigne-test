@@ -3,4 +3,8 @@
   target: "/page-de-test/"
   kind: page
   children: []
+- title: Equipe
+  target: "/equipe/"
+  kind: staff
+  children: []
 
