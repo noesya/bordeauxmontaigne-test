@@ -11,5 +11,14 @@ country: >
   France
 phone: >
   
-roles: []
+administrators:
+  - "arnaud-levy"
+administrators_description:
+  "arnaud-levy": >
+    Test
+roles:
+  - title: >
+      Test
+    persons:
+      - "arnaud-levy"
 ---
