@@ -1,24 +1,34 @@
 ---
 name: >
-  IUT Bordeaux Montaigne
+  IUT Michel de Montaigne
 address: >
-  1 rue Jacques Ellul
+  1, rue de Marnes
 zipcode: >
-  33000
+  92410
 city: >
-  Bordeaux
+  Ville d&#39;Avray
 country: >
   France
 phone: >
-  
+  0144930093
 administrators:
-  - "arnaud-levy"
+  - "pierre-andre-boissinot"
+  - "pierre-andre-boissinot"
 administrators_description:
-  "arnaud-levy": >
-    Test
+  "pierre-andre-boissinot": >
+    Chef de l&#39;IUT
+  "pierre-andre-boissinot": >
+    Secrétaire
 roles:
   - title: >
-      Test
+      Chef de l&#39;IUT
     persons:
-      - "arnaud-levy"
+      - "pierre-andre-boissinot"
+  - title: >
+      Sous-chef
+    persons:
+  - title: >
+      Secrétaire
+    persons:
+      - "pierre-andre-boissinot"
 ---
