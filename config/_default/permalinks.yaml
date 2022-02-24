@@ -1,6 +1,5 @@
-posts:          /actualites2/:year/:month/:day/:slug/
-categories:     /actualites2/:slug/
+posts:          /actualites/:year/:month/:day/:slug/
+categories:     /actualites/:slug/
 persons:        /equipe/:slug/
-authors:        /equipe/:slug/actualites2/
-administrators: /equipe/:slug/roles/
-teachers:       /equipe/:slug/programs/
+authors:        /equipe/:slug/actualites/
+researchers:    /equipe/:slug/articles/
