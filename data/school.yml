@@ -10,25 +10,6 @@ city: >
 country: >
   France
 phone: >
-  0144930093
-administrators:
-  - "pierre-andre-boissinot"
-  - "pierre-andre-boissinot"
-administrators_description:
-  "pierre-andre-boissinot": >
-    Chef de l&#39;IUT
-  "pierre-andre-boissinot": >
-    Secrétaire
-roles:
-  - title: >
-      Chef de l&#39;IUT
-    persons:
-      - "pierre-andre-boissinot"
-  - title: >
-      Sous-chef
-    persons:
-  - title: >
-      Secrétaire
-    persons:
-      - "pierre-andre-boissinot"
+  0664338611
+roles: []
 ---
