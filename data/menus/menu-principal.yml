@@ -1,2 +1,46 @@
---- []
+---
+- title: Menu 1
+  target: "/"
+  kind: blank
+  children:
+  - title: Menu 1-1
+    target: "/"
+    kind: blank
+    children: []
+  - title: Menu 1-2
+    target: "/"
+    kind: blank
+    children: []
+- title: Test page apprentissage
+  target: "/apprentissage2/"
+  kind: page
+  children: []
+- title: Test category 1
+  target: "/actualites/"
+  kind: news_category
+  children: []
+- title: Article spécifique
+  target: "/actualites/2021/10/01/actu-test-pa/"
+  kind: news_article
+  children: []
+- title: Test URL externe
+  target: https://www.google.fr/
+  kind: url
+  children: []
+- title: Test Program
+  target: "/offre-de-formation2/bachelor-universitaire-de-technologie-metiers-du-multimedia-et-de-l-internet/"
+  kind: program
+  children: []
+- title: Test index des formations
+  target: "/offre-de-formation2/"
+  kind: programs
+  children: []
+- title: Test index des actualités
+  target: "/actualites/"
+  kind: news
+  children: []
+- title: Test équipe
+  target: "/equipe/"
+  kind: staff
+  children: []
 
