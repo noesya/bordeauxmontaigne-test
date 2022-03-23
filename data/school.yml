@@ -1,15 +1,24 @@
 ---
 name: >
-  IUT Michel de Montaigne
+  IUT Bordeaux Montaigne
 address: >
-  1, rue de Marnes
+  1 rue Jacques Ellul
 zipcode: >
-  92410
+  33000
 city: >
-  Ville d&#39;Avray
+  Bordeaux
 country: >
   France
 phone: >
-  0664338611
-roles: []
+  
+administrators:
+  - "arnaud-levy"
+administrators_description:
+  "arnaud-levy": >
+    Test
+roles:
+  - title: >
+      Test
+    persons:
+      - "arnaud-levy"
 ---
