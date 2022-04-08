@@ -5,18 +5,85 @@ url: "/test/"
 position: 2
 description: >
   Leadership &amp; fellows
+description_short: >
+  
 blocks:
+  - template: chapter
+    title: >
+      Chapitre vide
+    position: 1
+    data:
+      text: >-
+        
+  - template: chapter
+    title: >
+      Chapitre rempli
+    position: 2
+    data:
+      text: >-
+        <p>test</p>
+  - template: chapter
+    title: >
+      Chapitre blank
+    position: 3
+    data:
+      text: >-
+        
   - template: organization_chart
     title: >
       
-    position: 1
+    position: 4
     data:
+      - slug: "julien-amiel"
+        role: >
+          test
+      - slug: "aurore-athomas"
+        role: >
+          test. 2
   - template: partners
     title: >
       Test
-    position: 2
+    position: 5
     data:
-      - id: "f8f68602-55f8-4bcb-a395-290fc203c633"
+      - slug: "118218"
+  - template: partners
+    title: >
+      Partenaires
+    position: 6
+    data:
+      - name: >
+          Nom
+        url: >-
+          https://www.ademe.fr/
+        logo: ""
+      - slug: ""
+  - template: posts
+    title: >
+      Actualités
+    position: 7
+    data:
+      posts:
+        - les-ateliers
+        - post-de-test
+        - post-de-test
+        - post-de-test
+  - template: posts
+    title: >
+      test cats
+    position: 8
+    data:
+      category: test
+      posts:
+        - post-de-test
+  - template: gallery
+    title: >
+      Galerie
+    position: 9
+    data:
+      images:
+        - alt: >
+            Test
+          file: "8e710ab0-9689-4ace-8045-585a157dacd9"
 
 
 ---
