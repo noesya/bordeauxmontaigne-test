@@ -1,6 +1,6 @@
 ---
 - title: Offre de formation
-  target: "/actualites/offre-de-formation/test/"
+  target: "/actualites//offre-de-formation/test/"
   kind: news_category
   children: []
 
