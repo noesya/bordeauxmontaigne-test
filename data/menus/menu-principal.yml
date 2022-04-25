@@ -4,7 +4,7 @@
   kind: organizations
   children:
   - title: sous-elmt
-    target: "/tierces-parties/"
-    kind: organizations
+    target: "/offre-de-formation2/"
+    kind: programs
     children: []
 
