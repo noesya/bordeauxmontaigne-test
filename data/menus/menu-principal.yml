@@ -4,7 +4,7 @@
   kind: organizations
   children:
   - title: sous-elmt
-    target: "/"
-    kind: blank
+    target: "/tierces-parties/"
+    kind: organizations
     children: []
 
