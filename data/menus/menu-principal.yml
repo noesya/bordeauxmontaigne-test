@@ -4,7 +4,7 @@
   kind: organizations
   children:
   - title: sous-elmt
-    target: "/offre-de-formation2/"
-    kind: programs
+    target: "/actualites/"
+    kind: news
     children: []
 
