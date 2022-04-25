@@ -1,7 +1,7 @@
 ---
 - title: Element 1
-  target: https://www.google.fr/
-  kind: url
+  target: "/tierces-parties/"
+  kind: organizations
   children:
   - title: sous-elmt
     target: "/"
