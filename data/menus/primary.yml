@@ -1,4 +1,8 @@
 ---
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
 - title: Offre de formation
   target: "/actualites/offre-de-formationtest/"
   kind: news_category
