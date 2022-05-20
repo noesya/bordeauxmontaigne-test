@@ -11,12 +11,17 @@ image:
   credit: >
     
 
+children:
+  - /test/second-page/
+  - /test/test-2/
 description: >
   Leadership &amp; fellows
 description_short: >
   
-header_text: >
+header_text: >-
   
+legacy_text: >
+  <p>Test</p><p><iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" src="//player.vimeo.com/video/214848763" width="640" height="360"></iframe><br></p> 
 blocks:
   - template: chapter
     title: >
@@ -27,6 +32,11 @@ blocks:
         
       notes: >-
         
+      image:
+        id: "630f349e-9466-457e-9491-ecacdd3aa733"
+        file: "630f349e-9466-457e-9491-ecacdd3aa733"
+        alt: 
+        credit: 
   - template: chapter
     title: >
       Chapitre rempli
@@ -51,10 +61,10 @@ blocks:
     position: 4
     data:
       - slug: "julien-amiel"
-        role: >
+        role: >-
           test
       - slug: "aurore-athomas"
-        role: >
+        role: >-
           test. 2
   - template: partners
     title: >
@@ -80,8 +90,8 @@ blocks:
     position: 7
     data:
       posts:
-        - association-les-concerts-de-poche
-        - post-de-test
+        - 2022/2022-05-18-association-les-concerts-de-poche
+        - 2021/2021-11-09-post-de-test
   - template: posts
     title: >
       test cats
@@ -89,19 +99,23 @@ blocks:
     data:
       category: "/offre-de-formationtest/"
       posts:
-        - association-les-concerts-de-poche
-        - post-de-test
+        - 2022/2022-05-18-association-les-concerts-de-poche
+        - 2021/2021-11-09-post-de-test
   - template: gallery
     title: >
       Galerie
     position: 9
     data:
       images:
-        - alt: >
+        - id: "dd4538dc-191f-4fc5-ad26-708e7155fd81"
+          file: "dd4538dc-191f-4fc5-ad26-708e7155fd81"
+          alt: >
             Test
+          credit: >
+            
           text: >
             Tezdfssfdbgnggrzsfwdxv
-          file: "dd4538dc-191f-4fc5-ad26-708e7155fd81"
+
   - template: testimonials
     title: >
       Témoignages
@@ -111,16 +125,16 @@ blocks:
         - text: >-
             This is a text
           author: >-
-              auteur
+            auteur
           job: >-
-              métier
+            métier
           photo: "ab92cec1-b662-4226-ab5f-b2a6f90d7953"
         - text: >-
             zearfg
           author: >-
-              aefd
+            aefd
           job: >-
-              azf
+            azf
   - template: call_to_action
     title: >
       Titre du CTA
@@ -129,14 +143,21 @@ blocks:
       text: >-
         <p>Texte du cta</p>
       image:
+        id: "b14f3c28-666a-477b-a69d-d75365aec898"
         file: "b14f3c28-666a-477b-a69d-d75365aec898"
         alt: Alt
+        credit: 
       button:
         text: >-
           Texte du bouton 1
         url: >-
           https://bordeauxmontaigne-iut.netlify.app/
       button_secondary:
+        text: >-
+          
+        url: >-
+          
+      button_tertiary:
         text: >-
           
         url: >-
@@ -158,12 +179,54 @@ blocks:
           
         url: >-
           
+      button_tertiary:
+        text: >-
+          
+        url: >-
+          
   - template: call_to_action
     title: >
       
     position: 13
     data:
+  - template: image
+    title: >
+      
+    position: 14
+    data:
+  - template: pages
+    title: >
+      Sélection spécifique
+    position: 15
+    data:
+      page: /test/second-page/
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      pages:
+        - page: /test/second-page/
+          slug: /test/second-page/
+        - page: /plan-du-site/
+          slug: /plan-du-site/
+  - template: pages
+    title: >
+      Enfants
+    position: 16
+    data:
+      page: /test/
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      pages:
+        - page: /test/second-page/
+          slug: /test/second-page/
+        - page: /test/test-2/
+          slug: /test/test-2/
+  - template: image
+    title: >
+      
+    position: 17
+    data:
 
 
 ---
-<p>Test</p><p><iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" src="//player.vimeo.com/video/214848763" width="640" height="360"></iframe><br></p> 
