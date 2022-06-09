@@ -5,7 +5,7 @@
   children: []
 - title: Offre de formation
   target: "/actualites/offre-de-formationtest/"
-  kind: news_category
+  kind: category
   children: []
 - title: Diplôme d'Université
   target: "/diplomes/diplome-d-universite/"

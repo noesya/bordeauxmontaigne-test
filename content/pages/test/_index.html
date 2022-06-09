@@ -3,7 +3,7 @@ title: >
   Test
 breadcrumb_title: "Test"
 url: "/test/"
-position: 3
+position: 2
 bodyclass: 
 image:
   id: "f4c78657-5062-416b-806f-0b80fb66f9cd"
@@ -24,7 +24,7 @@ legacy_text: >
   <p>Test</p><p><iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" src="//player.vimeo.com/video/214848763" width="640" height="360"></iframe><br></p> 
 blocks:
   - template: chapter
-    title: >
+    title: >-
       Chapitre vide
     position: 1
     data:
@@ -35,10 +35,12 @@ blocks:
       image:
         id: "630f349e-9466-457e-9491-ecacdd3aa733"
         file: "630f349e-9466-457e-9491-ecacdd3aa733"
-        alt: 
-        credit: 
+        alt: >-
+          
+        credit: >-
+          
   - template: chapter
-    title: >
+    title: >-
       Chapitre rempli
     position: 2
     data:
@@ -46,8 +48,15 @@ blocks:
         <p>test</p>
       notes: >-
         
+      image:
+        id: "641fc45c-8fd9-4ed3-9ed8-08b0141e3b08"
+        file: "641fc45c-8fd9-4ed3-9ed8-08b0141e3b08"
+        alt: >-
+          alt
+        credit: >-
+          credit with link
   - template: chapter
-    title: >
+    title: >-
       Chapitre blank
     position: 3
     data:
@@ -56,7 +65,7 @@ blocks:
       notes: >-
         
   - template: organization_chart
-    title: >
+    title: >-
       
     position: 4
     data:
@@ -67,13 +76,13 @@ blocks:
         role: >-
           test. 2
   - template: partners
-    title: >
+    title: >-
       Test
     position: 5
     data:
       - slug: "118218"
   - template: partners
-    title: >
+    title: >-
       Partenaires
     position: 6
     data:
@@ -85,39 +94,33 @@ blocks:
       - slug: "24-7-realmedia"
       - slug: "118218"
   - template: posts
-    title: >
+    title: >-
       Actualités
     position: 7
     data:
       posts:
+        - 2022/2022-05-25-test-1
         - 2022/2022-05-18-association-les-concerts-de-poche
         - 2021/2021-11-09-post-de-test
   - template: posts
-    title: >
+    title: >-
       test cats
     position: 8
     data:
       category: "/offre-de-formationtest/"
       posts:
+        - 2022/2022-05-25-test-1
         - 2022/2022-05-18-association-les-concerts-de-poche
         - 2021/2021-11-09-post-de-test
   - template: gallery
-    title: >
+    title: >-
       Galerie
     position: 9
     data:
+      layout: grid
       images:
-        - id: "dd4538dc-191f-4fc5-ad26-708e7155fd81"
-          file: "dd4538dc-191f-4fc5-ad26-708e7155fd81"
-          alt: >
-            Test
-          credit: >
-            
-          text: >
-            Tezdfssfdbgnggrzsfwdxv
-
   - template: testimonials
-    title: >
+    title: >-
       Témoignages
     position: 10
     data:
@@ -136,7 +139,7 @@ blocks:
           job: >-
             azf
   - template: call_to_action
-    title: >
+    title: >-
       Titre du CTA
     position: 11
     data:
@@ -145,25 +148,30 @@ blocks:
       image:
         id: "b14f3c28-666a-477b-a69d-d75365aec898"
         file: "b14f3c28-666a-477b-a69d-d75365aec898"
-        alt: Alt
-        credit: 
+        alt: >-
+          Alt
+        credit: >-
+          
       button:
         text: >-
           Texte du bouton 1
         url: >-
           https://bordeauxmontaigne-iut.netlify.app/
+        target_blank: true
       button_secondary:
         text: >-
-          
+          btn 2
         url: >-
-          
+          https://bordeauxmontaigne-iut.netlify.app/2
+        target_blank: false
       button_tertiary:
         text: >-
-          
+          btn 3
         url: >-
-          
+          https://bordeauxmontaigne-iut.netlify.app/3
+        target_blank: true
   - template: call_to_action
-    title: >
+    title: >-
       
     position: 12
     data:
@@ -174,28 +182,31 @@ blocks:
           
         url: >-
           
+        target_blank: false
       button_secondary:
         text: >-
           
         url: >-
           
+        target_blank: false
       button_tertiary:
         text: >-
           
         url: >-
           
+        target_blank: false
   - template: call_to_action
-    title: >
+    title: >-
       
     position: 13
     data:
   - template: image
-    title: >
+    title: >-
       
     position: 14
     data:
   - template: pages
-    title: >
+    title: >-
       Sélection spécifique
     position: 15
     data:
@@ -203,13 +214,14 @@ blocks:
       show_main_description: false
       show_descriptions: true
       show_images: true
+      layout: grid
       pages:
         - page: /test/second-page/
           slug: /test/second-page/
         - page: /plan-du-site/
           slug: /plan-du-site/
   - template: pages
-    title: >
+    title: >-
       Enfants
     position: 16
     data:
@@ -217,15 +229,50 @@ blocks:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      layout: grid
       pages:
         - page: /test/second-page/
           slug: /test/second-page/
         - page: /test/test-2/
           slug: /test/test-2/
   - template: image
-    title: >
+    title: >-
       
     position: 17
+    data:
+  - template: datatable
+    title: >-
+      
+    position: 18
+    data:
+  - template: chapter
+    title: >-
+      
+    position: 19
+    data:
+      text: >-
+        
+      notes: >-
+        
+  - template: video
+    title: >-
+      
+    position: 20
+    data:
+  - template: testimonials
+    title: >-
+      
+    position: 21
+    data:
+  - template: video
+    title: >-
+      
+    position: 22
+    data:
+  - template: posts
+    title: >-
+      
+    position: 23
     data:
 
 
